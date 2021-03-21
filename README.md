@@ -1,26 +1,26 @@
 # package-version
 
-Return package.json version by root directory or by custom path.
+package.json parser.
 
 # Install
 
 ```sh
-npm i package-version
+npm i package-json-parser
 ```
 
 # Usage
 
-## Simple example
+## Version
 
 Script:
 ```js
-  const package = require('package-version');
+  const packageJson = require('package-json-parser');
 
-  const version = packageVersion();
+  const version = packageJson.version();
   console.log(version); // version from root directory package.json
 
   const pathToPackageJson = '/foo/bar/package.json'
-  const fooBarVersion = packageVersion(pathToPackageJson);
+  const fooBarVersion = packageJson.version(pathToPackageJson);
   console.log(fooBarVersion); // version from /foo/bar directory package.json
 ```
 

@@ -1,19 +1,19 @@
 {
-  "name": "package-version",
+  "name": "package-json-parser",
   "version": "1.0.0",
-  "description": "Return package.json version by root directory or by custom path.",
+  "description": "package.json parser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nlapshin/package-version.git"
+    "url": "git+https://github.com/nlapshin/package-json-parser.git"
   },
   "author": "Nikolay Lapshin <nlapshin1989@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nlapshin/package-version/issues"
+    "url": "https://github.com/nlapshin/package-json-parser/issues"
   },
-  "homepage": "https://github.com/nlapshin/package-version#readme"
+  "homepage": "https://github.com/nlapshin/package-json-parser#readme"
 }

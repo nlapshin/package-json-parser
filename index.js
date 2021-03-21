@@ -1,7 +1,9 @@
-module.exports = (packagePath = 'package.json') {
-  const pjson = JSON.parse(packageJson(packagePath))
+module.exports = {
+  version(packagePath = 'package.json') {
+    const pjson = JSON.parse(packageJson(packagePath))
 
-  return pjson.version;
+    return pjson.version;
+  }
 }
 
 function packageJson(packagePath = 'package.json') {
