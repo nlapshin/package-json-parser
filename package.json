@@ -1,0 +1,19 @@
+{
+  "name": "package-version",
+  "version": "1.0.0",
+  "description": "Return package.json version by root directory or by custom path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlapshin/package-version.git"
+  },
+  "author": "Nikolay Lapshin <nlapshin1989@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlapshin/package-version/issues"
+  },
+  "homepage": "https://github.com/nlapshin/package-version#readme"
+}
