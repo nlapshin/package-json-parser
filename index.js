@@ -1,8 +1,14 @@
 module.exports = {
   version(packagePath = 'package.json') {
-    const pjson = JSON.parse(packageJson(packagePath))
+    const pjson = packageJson(packagePath);
 
     return pjson.version;
+  },
+
+  json(packagePath = 'package.json') {
+    const pjson = packageJson(packagePath);
+
+    return pjson;
   }
 }
 
