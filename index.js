@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 module.exports = {
   version(packagePath = 'package.json') {
     const pjson = packageJson(packagePath);
