@@ -1,6 +1,6 @@
 {
   "name": "package-json-parser",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "package.json parser",
   "main": "index.js",
   "types": "index.d.ts",
